@@ -54,7 +54,7 @@ const App = () => {
           <Route path= "/zonaMicrofonos" element={<CarrucelZonaMicrofonos/>} />
           <Route path= "/zonaAudifonosGamer" element={<CarrucelZonaAudifonosGamer/>} />
           <Route path= "/zonaLaptops" element={<CarrucelZonaLaptops/>} />
-          <Route path= "/zonCargadores" element={<ZonaCargadores/>} />
+          <Route path= "/zonaCargadores" element={<ZonaCargadores/>} />
           <Route path= "/zonaLaptops" element={<ZonaPcGamer/>} />
           <Route path= "/ZonaCargadores" element={<ZonaCargadores/>} />
           <Route path= "/ZonaPcGamer" element={<ZonaPcGamer/>} />
