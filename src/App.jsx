@@ -9,8 +9,6 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 import appFirebase from "./credenciales";
 const auth = getAuth(appFirebase);
 import GaleriaGamer from "./pages/Home/GaleriaGamer.jsx";
-
-import ZonaCargadores from "./cesar/Saltos/ZonaCargadores.jsx";
 import ZonaPcGamer from "./cesar/Saltos/ZonaPcGamer.jsx";
 import ZonaMonitores from "./cesar/Saltos/ZonaMonitores.jsx";
 import CarrucelZonaTeclado from "./cesar/zonaCarruceles/CarrucelZonaTeclado.jsx";
@@ -54,9 +52,9 @@ const App = () => {
           <Route path= "/zonaMicrofonos" element={<CarrucelZonaMicrofonos/>} />
           <Route path= "/zonaAudifonosGamer" element={<CarrucelZonaAudifonosGamer/>} />
           <Route path= "/zonaLaptops" element={<CarrucelZonaLaptops/>} />
-          <Route path= "/zonaCargadores" element={<ZonaCargadores/>} />
+         
           <Route path= "/zonaLaptops" element={<ZonaPcGamer/>} />
-          <Route path= "/ZonaCargadores" element={<ZonaCargadores/>} />
+          
           <Route path= "/ZonaPcGamer" element={<ZonaPcGamer/>} />
           <Route path= "/zonaMonitores" element={<ZonaMonitores/>} />
           <Route path="/zonaespe/:0" element={<Especificaciones/>} />
