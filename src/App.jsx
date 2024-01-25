@@ -1,20 +1,15 @@
 import { Navigate, BrowserRouter, Route, Routes,} from "react-router-dom";
 import HeaderComputo from "./cristhian/HeaderComputo";
-import Home from "./pages/Home/home";
+import Home from "./pages/Home/Home.jsx";
 import { catnew } from "./cristhian/apinew";
-import Carrucel from "./Carrucel.jsx";
+
 import { useState } from "react";
 import Login from "./Christofer/Login";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import appFirebase from "./credenciales";
 const auth = getAuth(appFirebase);
-import ModoDarck from "./cesar/ModoDarck.jsx";
-import Gamer from "./cristhian/Gamer.jsx";
 import GaleriaGamer from "./pages/Home/GaleriaGamer.jsx";
-import ZonaTeclados from "./cesar/Saltos/ZonaTeclados.jsx";
-import ZonaMicrofonos from "./cesar/Saltos/ZonaMicrofonos.jsx";
-import ZonaAudifonosGamer from "./cesar/Saltos/ZonaAudifonosGamer.jsx";
-import ZonaLaptops from "./cesar/Saltos/ZonaLaptops.jsx";
+
 import ZonaCargadores from "./cesar/Saltos/ZonaCargadores.jsx";
 import ZonaPcGamer from "./cesar/Saltos/ZonaPcGamer.jsx";
 import ZonaMonitores from "./cesar/Saltos/ZonaMonitores.jsx";
