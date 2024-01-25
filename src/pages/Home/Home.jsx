@@ -2,7 +2,6 @@ import Carru from "../../Carru";
 import Novedades from "../../cristhian/Novedades";
 import Slider from "../../cristhian/Slider";
 import SliderCesar from "../../cesar/SliderCesar";
-import '../../cesar/Categorias.css'
 import '../../cesar/ModoDarck1.css'
 
 
