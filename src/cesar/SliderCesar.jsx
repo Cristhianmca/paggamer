@@ -1,5 +1,5 @@
 import images from './images'
-import '../styles/Slider.css'
+
 import { Link } from 'react-router-dom'
 
 
